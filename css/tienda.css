@@ -1,0 +1,117 @@
+/* Estilos generales para el body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para el encabezado de la página */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Estilos para la navegación */
+  .navegador {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .link {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  .link__items {
+    margin: 0 10px;
+  }
+  
+  .link__items a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el título principal */
+  .titulo {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Estilos para el subtítulo */
+  .inicio {
+    text-align: center;
+    color: #666;
+  }
+  
+    /* Estilos para el texto principal */
+ .texto__como__ordenar {
+    text-align: center;
+    color: #666;
+  }
+  
+  /* Estilos para la galería de productos */
+  .galeria__frutos {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  
+  .galeria__frutos li {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Estilos para las imágenes de productos */
+  .imagenes__frutos {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para el footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Estilos para los enlaces en el footer */
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+  }
+  
+  /* Cambiar el color de fondo del enlace al pasar el mouse */
+  a:hover {
+    background-color: #ffd700;
+  }
+  

@@ -1,0 +1,128 @@
+/* Estilos generales para el body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para el encabezado de la página */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Estilos para la navegación */
+  .navegador {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .link {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  .link__items {
+    margin: 0 10px;
+  }
+  
+  .link__items a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el título principal */
+  .titulo {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Estilos para el subtítulo */
+  .inicio {
+    text-align: center;
+    color: #666;
+  }
+  
+  /* Estilos para la sección de la imagen */
+  section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+  }
+  
+  .galeria__foto {
+    width: 300px;
+    height: 300px;
+  }
+  
+  /* Estilos para la sección de atención al cliente */
+  .atencion {
+    color: #333;
+  }
+  
+  .texto__atencion {
+    text-align: center;
+    color: #666;
+  }
+  
+  /* Estilos para el footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para el footer - enlaces a redes sociales */
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 0 10px;
+  }
+  
+  ul li a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Estilos para el header con imagen de fondo */
+  .imagen_fondo {
+    background-image: url('../imagenes/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Estilos adicionales */
+  /* Ajustar el tamaño de la imagen de fondo del header */
+  .imagen_fondo {
+    height: 200px;
+  }
+  
+  /* Estilos para el texto en el footer */
+  h6 {
+    font-size: 14px;
+  }
+  
+  /* Estilos para los enlaces del footer */
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Cambiar el color de fondo del enlace al pasar el mouse */
+  a:hover {
+    color: #ffd700;
+  }
+  

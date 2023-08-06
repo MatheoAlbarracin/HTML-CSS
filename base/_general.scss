@@ -1,0 +1,341 @@
+.section{
+
+    h3{
+        ul{
+            li{
+                img{
+                    li{
+                        img{
+                            li{
+                                img{
+                                    ul{
+                                        list-style:none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.body{
+    .link{
+        &__items{
+            &__navegador{
+                &:hover{
+                    transform: scale(5);
+                    transition-duration: 2s;
+                }
+            }
+        }
+    }
+}
+
+.navegador{
+
+    ul{
+        background: $gradiente-titulos;
+        padding: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        li{
+            display: inline;
+            text-align: center;
+            margin: 10px;
+            padding: 12px;
+
+            a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                font-size: 30px;
+                font-weight: 500;
+                
+                &:hover{
+                    color: map-get($colores, "color-principal");
+                    text-decoration: underline;
+                }
+            }
+        }
+    }   
+}
+
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+/* HTML INDEX */
+
+.link{
+    margin: 0%;
+    padding: 1%;
+    width: 100%;
+    border: 3px solid purple;
+    height: 100%;
+    background-image: url(../imagenes/Frutos.jpg);}
+
+.navegador{
+    width: 100%;
+}
+
+.body {
+    background-color: pink; }
+
+
+.link{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.link_items{
+    display:flex;
+    justify-content: center;
+    margin: 16px;
+    position: sticky;
+}
+
+.titulo{
+    color: black ; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+.texto{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+    text-align: center;
+}
+
+.inicio{
+    background-color: white;
+    width: fit-content;
+    border:solid 2px black;
+    border-radius: 6px;
+    padding:10px;
+    margin: 20px auto
+}
+
+.redes__sociales{   
+    margin: 5px;
+    padding: 5px;
+}
+
+.redes__sociales__imagen__twitter{
+    width: 40px;
+    left: 16%;
+    bottom: 49%;
+}
+
+.redes__sociales__imagen__instagram{
+    width: 30px;
+    left: 7%;
+    top: 42%;
+}
+
+.whatsapp{
+    position: sticky;
+    width: 75px;
+    right: 0%;
+    bottom: 0%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction:row;
+    padding: 1%;
+    bottom: 20%;
+}
+
+.container__frutos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulo__encuesta{
+    left: 40%;
+    right: 35%;
+    bottom: 50%;
+    top: 50%;
+}
+
+.subtitulo__encuesta{
+    bottom: 40%;
+    left: 45%;
+}
+
+.titulo__frutos{
+    bottom: 40%;
+    left: 70%;
+}
+
+.foto__frutos{
+    width: 10%;
+    bottom: 25%;
+    right: 5%;
+}
+
+.foto__frutos__segundo{
+    width: 15%;
+    bottom: 25%;
+    right: 16%;
+}
+
+.container{
+    background-color:gray
+}
+
+.img-fluid{
+    width: 30px;
+}
+
+.container ul{
+    list-style:square;
+}
+
+/* CONTACTO HTML*/
+
+.galeria__foto{
+    width: 195px;
+    display: flex;
+    justify-content: center;
+}
+
+.atencion{
+    font-size: 160%;
+}
+
+.section__contactos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.texto__atencion{
+    display: flex;
+    justify-content: center;
+    font-size: 120%;
+    padding-top: 15px;
+}
+
+.contactarnos__maneras{
+    font-size: 150%;
+    top: 85%;
+    text-decoration:line-through
+}
+
+.contactarnos__maneras_lista{
+    font-size: 100%;
+    text-decoration:underline crimson
+}
+
+
+
+.titulo__productos{
+    font-size: 45px;
+    text-decoration:underline
+}
+
+.galeria__frutos{
+    width: 400px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    list-style: none;
+    font-style: oblique;
+}
+
+.como__ordenar{
+    font-size: 3em;
+}
+
+.texto__como__ordenar{
+    font-size: 40px;
+    border: solid 5px purple 
+}
+
+.titulo__redes__sociales{
+    font-size: 2em;
+    text-decoration: line-through;
+}
+
+/* TIENDA */
+
+.texto__quienes__somos{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.link__quienes{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+/* QUIENES SOMOS */
+
+.maps{
+    color: black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center; 
+    font-size: 3em;
+}
+
+.texto__maps{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    text-decoration:overline
+}
+
+@media screen and (max-width: 768px){
+}
+
+.imagenes__frutos{
+    height: 100px;
+}
+
+@media screen and (max-width: 320px){
+.texto{
+    font-size: 12px;
+    line-height: 10px;
+}
+
+.inicio{
+    margin: 10px auto;
+}
+
+.formulario{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navegador{
+    justify-content: center;
+}
+
+.navegador ul li a{
+    font-size: 11px;
+}
+
+.imagenes__frutos{
+    height: 50px;
+}
+
+.maps__mapa{
+    height: 250px;
+    width: 250px;
+}
+}
